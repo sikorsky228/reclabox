@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>R</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+<body>
+<header>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <a href="/" class="head-logo">
+        <img src="img/head-logo.png" alt="logo">
+    </a>
+    <div class="right-panel">
+        <a href="#" class="search-button">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;"
+	 xml:space="preserve" class="search-ico">
+<g>
+	<g>
+		<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
+			c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"/>
+		<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951
+			C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46
+			c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465
+			C318.424,257.208,257.206,318.416,181.956,318.416z"/>
+		<path d="M75.817,181.955h30.322c0-41.803,34.014-75.814,75.816-75.814V75.816C123.438,75.816,75.817,123.437,75.817,181.955z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+        </a>
+        <div class="search-panel">
+            <input type="search" placeholder="Berschwerde durchsuchen">
+            <label class="search-input-ico"></label>
+        </div>
+        <a href="#" class="enter">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;"
+	 xml:space="preserve" class="search-ico">
+<g>
+	<g>
+		<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
+			c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"/>
+		<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951
+			C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46
+			c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465
+			C318.424,257.208,257.206,318.416,181.956,318.416z"/>
+		<path d="M75.817,181.955h30.322c0-41.803,34.014-75.814,75.816-75.814V75.816C123.438,75.816,75.817,123.437,75.817,181.955z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+        </a>
+        <a href="#" class="menu-habmurger">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;"
+	 xml:space="preserve" class="search-ico">
+<g>
+	<g>
+		<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
+			c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"/>
+		<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951
+			C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46
+			c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465
+			C318.424,257.208,257.206,318.416,181.956,318.416z"/>
+		<path d="M75.817,181.955h30.322c0-41.803,34.014-75.814,75.816-75.814V75.816C123.438,75.816,75.817,123.437,75.817,181.955z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+        </a>
+    </div>
+
+</nav>
+</header>
+   
+   
+<section class="navigation">
+    <div class="menu-wrap">
+        <button>Menu</button>
+        <button>Menu</button>
+    </div>
+    
+    
+</section>
+
+<section class="content">
+    <div class="container">
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="#">lorem ipsum</a></li>
+                <li><a href="#">lorem ipsum</a></li>
+                <li><a href="#">lorem ipsum</a></li>
+                <li><a href="#">lorem ipsum</a></li>
+            </ul>
+        </div>
+        <div class="article-header">
+            <h3>Subheader</h3>
+            <h1>Header</h1>
+            <p class="header-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veniam dolor accusantium nihil quos porro, nulla, accusamus ex eaque nostrum modi amet optio placeat molestias. Repellat accusantium voluptatem, hic perspiciatis?
+            </p>
+            <div class="header-user-panel">
+                user
+                <div class="social-networks">
+                    Social panel
+                </div>
+            </div>
+        </div>
+        <div class="article-slider">
+           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Содержимое слайдов -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/article-image.png" alt="...">
+                    </div>
+                     
+                    <div class="item">
+                      <img src="img/article-image.png" alt="...">
+                    </div>
+                     
+                    <div class="item">
+                      <img src="img/article-image.png" alt="...">
+                    </div>
+                  </div>
+ 
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                  </a>
+                </div>
+           
+        </div>
+        <div class="article-content">
+            <div class="content-block col-md-8">
+               <div class="text-content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.
+                <img src="img/content-img.jpg" alt>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.
+                </div>
+                
+                
+                <div class="requirement-block">
+                   <span class="requirement-header">Lorem ipsum <span class="company-name">Company name</span>:</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem perspiciatis impedit minima, architecto consequatur tenetur aperiam quo fugit eaque molestias enim ducimus ex earum. Nemo culpa dolore hic veritatis sunt!
+                </div>
+                <div class="response-block">
+                   <div class="response-header">
+                       lorem ipsum <span class="company-name">Company name</span>
+                   </div>
+                   <div class="response-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sunt eaque iure, veritatis ratione cupiditate, soluta rem minus repellendus temporibus error suscipit possimus provident optio, praesentium dolor quisquam. Maxime, sit!
+                   </div>
+                </div>
+                <div class="other-articles-block">
+                    <article class="other-article">
+                        <div class="article-category">Category</div>
+                        <h2>Name</h2>
+                        <img src="img/other-article-img.png" alt="art img" class="other-article-img">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vero pariatur, dolore sit aliquam. Itaque corporis, inventore soluta quasi velit! Porro sunt veniam, mollitia alias adipisci nulla in laboriosam. Nostrum.</p>
+                        <span class="comment">Kommentar</span>
+                        <span class="author">von<span class="author-name">Author</span></span>
+                        <span class="date">22.10.2015</span>
+                    </article>
+                    
+                                        <article class="other-article">
+                        <div class="article-category">Category</div>
+                        <h2>Name</h2>
+                        <img src="img/other-article-img.png" alt="art img" class="other-article-img">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vero pariatur, dolore sit aliquam. Itaque corporis, inventore soluta quasi velit! Porro sunt veniam, mollitia alias adipisci nulla in laboriosam. Nostrum.</p>
+                        <span class="comment">Kommentar</span>
+                        <span class="author">von<span class="author-name">Author</span></span>
+                        <span class="date">22.10.2015</span>
+                    </article>
+                    
+                                        <article class="other-article">
+                        <div class="article-category">Category</div>
+                        <h2>Name</h2>
+                        <img src="img/other-article-img.png" alt="art img" class="other-article-img">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vero pariatur, dolore sit aliquam. Itaque corporis, inventore soluta quasi velit! Porro sunt veniam, mollitia alias adipisci nulla in laboriosam. Nostrum.</p>
+                        <span class="comment">Kommentar</span>
+                        <span class="author">von<span class="author-name">Author</span></span>
+                        <span class="date">22.10.2015</span>
+                    </article>
+                    
+                                        <article class="other-article">
+                        <div class="article-category">Category</div>
+                        <h2>Name</h2>
+                        <img src="img/other-article-img.png" alt="art img" class="other-article-img">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime vero pariatur, dolore sit aliquam. Itaque corporis, inventore soluta quasi velit! Porro sunt veniam, mollitia alias adipisci nulla in laboriosam. Nostrum.</p>
+                        <span class="comment">Kommentar</span>
+                        <span class="author">von<span class="author-name">Author</span></span>
+                        <span class="date">22.10.2015</span>
+                    </article>
+                </div>
+                <div class="comments-block">
+                  Comments  
+                </div>
+            </div>
+            <div class="sidebar col-md-4">
+                Sidebar
+            </div>
+            
+            
+        </div>
+        
+        
+    </div>
+</section> 
+   
+   
+    <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+.breadcrumbs{
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+    li:last-child{
+        font-weight: 700;
+    }
+}

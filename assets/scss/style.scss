@@ -1,0 +1,22 @@
+@import 'header';
+@import 'article-header';
+@import 'article-slider';
+@import 'article-content';
+@import 'article-sidebar';
+@import 'comments';
+
+
+html{
+    font-family: 'Cuprum', sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    padding-top: 90px;
+}
+
+h1,h2,h3{
+    padding:0;
+    margin:0;
+}

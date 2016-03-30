@@ -1,0 +1,62 @@
+.content-block{
+    img{
+    display:block;
+    margin:0 auto;
+}
+}
+
+.requirement-block{
+    background-color:#fef2f2;
+    padding:20px 15px;
+    margin-bottom:20px;
+    border:1px solid #b0b0b0;
+    .requirement-header{
+        font-weight: 700;
+    }
+}
+.company-name{
+    font-weight: 700;
+}
+.response-block{
+    background-color:#dddddd;
+    margin-bottom:20px;
+    border:1px solid #b0b0b0;
+    .response-header{
+        border-bottom:1px dotted #b0b0b0;
+        padding:20px 15px;
+    }
+    .response-text{
+        padding:20px 15px;
+    }
+}
+
+.other-articles-block{
+    .other-article{
+        padding-bottom:30px;
+        border-bottom:1px solid #ccc;
+    }
+    .article-category{
+        font-size:18px;
+    }
+    h2{
+        font-weight: 700;
+    }
+    .other-article-img{
+        float:left;
+        display: block;
+        padding-right:20px;
+    }
+    p{
+        font-size: 16px;
+        line-height:28px;
+    }
+    .comment{
+        color:#b61028;
+        font-weight: 700;
+    }
+    .author{
+        .author-name{
+            font-weight: 700;
+        }
+    }
+}
