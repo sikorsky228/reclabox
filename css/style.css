@@ -8,6 +8,9 @@ h1, h2, h3, ul {
   padding: 0;
   margin: 0; }
 
+button {
+  border: none; }
+
 .navbar-default {
   background-color: #fff; }
 
@@ -149,6 +152,29 @@ h1, h2, h3, ul {
   .map-block .google-map {
     width: 100%;
     height: 350px; }
+
+.follow-block {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  position: relative; }
+  .follow-block p {
+    font-weight: 700; }
+  .follow-block img {
+    float: left;
+    padding-right: 10px; }
+  .follow-block .rt-text {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0; }
+  .follow-block .button-block {
+    position: absolute;
+    bottom: 10px;
+    right: 130px; }
+  .follow-block button {
+    background-color: #820316;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase; }
 
 .other-articles-block .other-article {
   padding-bottom: 30px;
