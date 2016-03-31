@@ -2,8 +2,37 @@
     li{
         list-style: none;
         display: inline-block;
+        position: relative;
+        padding-right: 15px;
+    }
+    a{
+        color:#ccc;
+    }
+    li:last-child:after{
+        content:"";
     }
     li:last-child{
+        font-weight: 700;
+    }
+    li:after{
+        position: absolute;
+        content: ">";
+        display: block;
+        top: 0px;
+        right: 0;
+        font-size: 16px;
+        color:#ccc;
+    }
+}
+
+.article-header{
+    .company-name{
+        text-transform: uppercase;
+        font-size:16px;
+        padding:10px 0;
+    }
+    h1{
+        padding:12px 0;
         font-weight: 700;
     }
 }
