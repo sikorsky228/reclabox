@@ -5,7 +5,7 @@
     <title>R</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
 <header>
@@ -175,15 +175,16 @@
     <div class="container">
         <div class="breadcrumbs">
             <ul>
-                <li><a href="#">lorem ipsum</a></li>
-                <li><a href="#">lorem ipsum</a></li>
-                <li><a href="#">lorem ipsum</a></li>
-                <li><a href="#">lorem ipsum</a></li>
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#">Handel</a></li>
+                <li><a href="#">Drogerien</a></li>
+                <li><a href="#">Dm-drogerie markt</a></li>
+                <li><a href="#">Beschwerde 116204</a></li>
             </ul>
         </div>
         <div class="article-header">
-            <h3>Subheader</h3>
-            <h1>Header</h1>
+            <h4 class="company-name">DM-DROGERIE MARKT GMBH + CO. KG</h3>
+            <h1>Beschwerde zur Kassiererin im dm Berlin</h1>
             <p class="header-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veniam dolor accusantium nihil quos porro, nulla, accusamus ex eaque nostrum modi amet optio placeat molestias. Repellat accusantium voluptatem, hic perspiciatis?
             </p>
@@ -201,7 +202,7 @@
             <span>1111111</span>
         </div>
         <div class="article-content">
-            <div class="content-block col-md-8">
+            <div class="content-block col-md-7">
                 <div class="request-author clearfix">
                     <div class="author-img">
                         <img src="img/user-img.jpg" alt>
@@ -210,14 +211,17 @@
                         <span>Geschrieben von</span>
                         <span class="author-name">Author name</span>
                         <div class="author-contacts">
-                            <a href="#">email ico</a>
+                            <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
                         </div>
                     </div>
                </div>
                <div class="text-content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.
+               <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.
+                </p>
                 <img src="img/content-img.jpg" alt>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium natus cum facere perspiciatis commodi doloremque debitis dolorem, sint, minima repellat, maiores quo praesentium esse accusamus impedit porro suscipit recusandae voluptate.</p>
                 </div>
                 
                 <div class="request-author clearfix">
@@ -228,7 +232,7 @@
                         <span>Geschrieben von</span>
                         <span class="author-name">Author name</span>
                         <div class="author-contacts">
-                            <a href="#">email ico</a>
+                            <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
                         </div>
                     </div>
                 </div>
@@ -245,14 +249,27 @@
                    </div>
                 </div>
                 <div class="answer-block">
-                    
+                    <p>Firmen-Antwort ausstehend seit
+                        <span id="tempospan">
+                            <span class="fletter">3</span> Jahre, 
+                            <span class="fletter">306</span> Tagen, 
+                            <span class="fletter">15</span> Stunden, 
+                            <span class="fletter">54</span> Minuten und 
+                            <span class="fletter">2</span> Sekunden.
+                        </span>
+                    </p>
+                    <span class="bold-text">Richtet sich diese Beschwerde gegen Ihr Unternehmen?</span>
+                    <button class="answer-button">jetzt antworten</button>
                 </div>
                 
                 <div class="comments-block">
                   Comments  
                 </div>
             </div>
-            <div class="sidebar col-md-4">
+            <div class="sidebar col-md-5">
+               <div class="map-block">
+                   <div class="google-map" id="google-map"></div>
+               </div>
                 <div class="other-articles-block">
                    <h2>Zum thema</h2>
                     <article class="other-article">
@@ -295,7 +312,10 @@
    
     <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    
 
 </body>
 </html>
