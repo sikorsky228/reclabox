@@ -3,12 +3,17 @@
 }
 .head-logo{
     img{
+        float:left;
         width:300px;
         vertical-align: middle;
         padding:10px;
     }
 }
 .navbar{
+    .main-menu{
+        float:left;
+        display: inline-block;
+    }
     .right-panel{
         float:right;
         margin-right:10px;
@@ -32,6 +37,14 @@
         input{
             border:1px solid #000;
             padding:2px 70px 2px 10px;
+        }
+        label{
+            position: absolute;
+            right: 3px;
+            top: 3px;
+            width: 20px;
+            height: 20px;
+            opacity: 0.7;
         }
     }
 }

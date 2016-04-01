@@ -10,6 +10,10 @@ h1,h2,h3,ul{
     margin:0;
 }
 
+button{
+    border:none;
+}
+
 @import 'header';
 @import 'article-header';
 @import 'article-slider';
@@ -17,3 +21,25 @@ h1,h2,h3,ul{
 @import 'article-sidebar';
 @import 'comments';
 @import 'media';
+
+.scroll-top{
+    display:none;
+    position: fixed;
+    bottom:20px;
+    right:10%;
+    a{
+        display:block;
+        width:35px;
+        height:35px;
+        background-color: #666;
+    }
+    span{
+        font-size: 20px;
+        top: 25%;
+        left: 25%;
+        color: #fff;
+    }
+    a:hover{
+        opacity:0.5;
+    }
+}
