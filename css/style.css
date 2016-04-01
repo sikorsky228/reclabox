@@ -15,9 +15,14 @@ button {
   background-color: #fff; }
 
 .head-logo img {
+  float: left;
   width: 300px;
   vertical-align: middle;
   padding: 10px; }
+
+.navbar .main-menu {
+  float: left;
+  display: inline-block; }
 
 .navbar .right-panel {
   float: right;
@@ -41,6 +46,13 @@ button {
   .navbar .search-panel input {
     border: 1px solid #000;
     padding: 2px 70px 2px 10px; }
+  .navbar .search-panel label {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.7; }
 
 .breadcrumbs li {
   list-style: none;
@@ -207,3 +219,21 @@ button {
     .request-author .author-contacts {
       border: none !important;
       padding: 0; } }
+
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10%; }
+  .scroll-top a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #666; }
+  .scroll-top span {
+    font-size: 20px;
+    top: 25%;
+    left: 25%;
+    color: #fff; }
+  .scroll-top a:hover {
+    opacity: 0.5; }

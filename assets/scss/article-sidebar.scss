@@ -5,7 +5,37 @@
         height:350px;
     }
 }
+.follow-block{
+    border-bottom:1px solid #ccc;
+    padding:10px;
+    position:relative;
+    p{
+        font-weight: 700;
+    }
+    img{
+        float:left;
+        padding-right:10px;
+    }
+    .rt-text{
+        font-size:18px;
+        font-weight: 700;
+        padding:10px 0;
+    }
+    .button-block{
+        position: absolute;
+        bottom:10px;
+        right:130px;
+    }
+    button{
+        background-color: #820316;
+        color:#fff;
+        padding:5px 20px;
+        text-transform: uppercase;
+    }
+    label{
 
+    }
+}
 .other-articles-block{
     .other-article{
         padding-bottom:30px;

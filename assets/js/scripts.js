@@ -1,10 +1,33 @@
-$("body").click(function(){
-    $(".search-panel").toogle;
+$(".search-button").click(function(event){
+    event.preventDefault();
+    $(".search-panel").toggle();
 });
+
+
+/*up to top button*/
+
+$(window).scroll(function(event){  
+   event.preventDefault();
+   if ( $(window).scrollTop() >= 150 ){                   
+      $('.scroll-top').show();
+   } else{
+      $('.scroll-top').hide();
+   }
+});
+
+
+ $('#up').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  });
+
+
+
 
 /*Google map*/
 function contactMap() {
-      var latlng = new google.maps.LatLng(55.7527938, 37.6470594);
+      var latlng = new google.maps.LatLng(52.5159693, 13.3939313);
       var settings = {
         zoom: 17,
         scrollwheel: false,
@@ -24,7 +47,7 @@ function contactMap() {
         new google.maps.Point(0,0),
         new google.maps.Point(30,55)
       );
-      var trainPos = new google.maps.LatLng(59.936289, 30.320837);
+      var trainPos = new google.maps.LatLng(52.5159693, 13.3939313);
       var trainMarker = new google.maps.Marker({
         position: trainPos,
         map: map,
